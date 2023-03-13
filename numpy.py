@@ -14,3 +14,5 @@ X_new = selector.fit_transform(X, y)
 mask = selector.get_support()   # get a boolean mask of the selected features
 selected_features = np.arange(X.shape[1])[mask]   # get the indices of the selected features
 print(f"Selected features: {selected_features}")
+
+print("hello wowrld")
